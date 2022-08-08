@@ -1,6 +1,7 @@
   	/*
 	 * Subscribe to the EmbeddedApp onPageLoad event before initializing the widget 
 	 */
+	
 	ZOHO.embeddedApp.on("PageLoad",function(data)
 	{
 		
@@ -9,6 +10,7 @@
 	 	 */
 		if(data && data.Entity)
 		{
+			/* Get e-mail templates
 			/*
 		 	 * Fetch Information of Record passed in PageLoad
 		 	 * and insert the response into the dom
